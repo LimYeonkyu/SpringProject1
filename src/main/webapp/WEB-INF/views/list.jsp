@@ -36,6 +36,7 @@
 </head>
 
 <body>
+<br/><a href="../login/logout">로그아웃</a>
 <h1>자유게시판</h1>
 <table id="list" width="90%">
     <tr>
