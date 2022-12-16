@@ -1,8 +1,9 @@
-//package com.example;
+//package com.example.board;
 //
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.test.context.ContextConfiguration;
-//import org.springframework.test.context.TestConstructor;
 //import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 //
 //import javax.sql.DataSource;
@@ -14,14 +15,14 @@
 //public class DataSourceTest {
 //
 //    @Autowired
-//    private DataSource dataSource;
+//    private DataSource ds;
 //
 //    @Test
-//    public void testConnection(){
-//        try{
-//            Connection con=dataSource.getConnection();
-//            System.out.println("DB연결!");
-//        }catch(SQLException e){
+//    public void testConnection() {
+//        try {
+//            Connection con = ds.getConnection();
+//            System.out.println("DB연결");
+//        } catch(SQLException e) {
 //            e.printStackTrace();
 //        }
 //    }
