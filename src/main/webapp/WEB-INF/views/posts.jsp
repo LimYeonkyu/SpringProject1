@@ -36,7 +36,7 @@
 </script>
 </head>
 <body>
-<h1>게시판</h1>
+<h1>한동대학교 단체 관리 서비스</h1>
 <div>
     <form method="post" action="../login/logout">
         <button type="submit">logout</button>
